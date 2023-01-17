@@ -3,6 +3,7 @@ public class TestaSAPCommerce {
         SAPCommerce sapCommerce = new SAPCommerce();
 
         sapCommerce.addToCart();
+        sapCommerce.updateItemFromCart();
         sapCommerce.removeItemFromCart();
     }
 }
